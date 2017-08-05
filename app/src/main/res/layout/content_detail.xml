@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vt.system.Activity.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+                <LinearLayout
+                    android:id="@+id/viewA"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/iv_imagen_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fitsSystemWindows="true"
+                            android:scaleType="fitXY" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/viewB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/titulo_nomnbre_cliente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/thumbnail_image_header"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Nombre"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewNombre_Cliente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nameofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_telefono_cliente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Telefono"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewTelefono_Cliente"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_marca_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Marca"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewMarca_Smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_modelo_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Modelo"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewModelo_Smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_imei1_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Imei 1"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewImei1_Smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_imei2_smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Imei 2"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewImei2_Smartphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/titulo_observacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/name"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Observacion"
+                            android:textAlignment="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textViewObservacion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numberofsongs"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:textSize="20sp" />
+
+
+                </LinearLayout>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            app:layout_anchor="@id/viewA"
+            app:layout_anchorGravity="bottom|left|end"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            app:layout_anchor="@id/viewA"
+            app:layout_anchorGravity="bottom|right|end"
+            app:srcCompat="@android:drawable/ic_menu_gallery"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            app:layout_anchor="@id/viewA"
+            app:layout_anchorGravity="top|bottom|end"
+            app:srcCompat="@android:drawable/ic_menu_upload_you_tube" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

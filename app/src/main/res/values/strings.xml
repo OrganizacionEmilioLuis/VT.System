@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">VT.System</string>
+    <string name="title_activity_navigation__drawer">Navigation_Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_nombre">Cliente</string>
+    <string name="hint_telefono">Teléfono</string>
+    <string name="hint_marca">Marca</string>
+    <string name="hint_modelo">Modelo</string>
+    <string name="hint_imei1">Imei 1</string>
+    <string name="hint_imei2">Imei 2</string>
+    <string name="hint_observacion">Observacion</string>
+
+    <string name="CardView">CardView</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">CONSULTA DE DATOS</string>
+    <string name="backdrop_subtitle">PRUEBAS</string>
+    <string name="title_activity_consulta">ActivityConsulta</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_scanner_qr">ActivityScannerQR</string>
+    <string name="title_activity_simple_scanner">SimpleScannerActivity</string>
+
+
+    <string name="scanner_activity">ZBar Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZBar Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZBar Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZBar Scanner - Simple Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Scanner Qr</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Enfoque automático [ON]</string>
+    <string name="auto_focus_off">Enfoque automático [OFF]</string>
+    <string name="formats">Formatos</string>
+    <string name="choose_formats">Elija Formatos</string>
+    <string name="select_camera">Seleccione la Camara</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title_activity_scanner">ActivityScanner</string>
+    <string name="title_activity_full_scanner">FullScannerActivity</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="title_activity_volley">Volley</string>
+</resources>
